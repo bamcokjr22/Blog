@@ -1,0 +1,51 @@
+This dataset tracks wins and losses in real-time during a live event, the tournament director enters the results to a web-based system. Each event has a unique ID, as well as an overall series ID.
+
+An example of a weekly results can be found at https://matchplay.events/live/z8e73/standings
+An example of tournament standings can be found at https://matchplay.events/live/series/2291
+Execute the following steps to build a Power BI based solution to make the club's tournament data more accessible:
+
+Create a Shared Workspace in Microsoft Power BI Online Service
+Connect to website data tables using the custom ID parameter and perform data cleaning before loading into a Power BI model
+Create additional measures/calculations, and organize so reports, dashboards and other visualization components can be accomplished
+Create a variety of visualizations to meet the needs of three user groups:
+Tournament Organizers
+Event Participants
+Public Visitors/Followers
+Display the visualizations in report pages per user group requirements
+Create interactive dashboards to drill down into the data
+Player performance over time including weekly and series total points
+Week over week deltas including number of participants
+Publish the reports to a Microsoft Power BI Online Service Shared Workspace – along with the necessary access/sharing privileges and security
+Configure an automatic refresh so as additional weeks are completed, the model can be refreshed to absorb the new data and be reflected in the reports
+League Data
+After each weekly event the tournament director collects and uploads results data to a web-based system located at http://cffc.league.papa.org/#league7. In this part of the exercise, determine the best way to connect to this data with Power BI. Extract, transform, and load the raw data into the model for further analysis:
+
+Create a Shared Workspace in Microsoft Power BI Online Service
+Establish a secure location for the import of data (if necessary)
+Connect to data (either via web page, database, or offline excel files stored on a shared location), and perform data cleaning before loading into a Power BI model
+Create a parameter entry box to specify a particular league season
+Transform the data, create additional measures/calculations, and organize so reports, dashboards and other visualization components can be accomplished
+Create a variety of visualizations to meet the needs of three user groups:
+League Organizers
+Event Participants
+Public Visitors/Followers
+Display the visualizations in report pages per user group requirements
+Create interactive dashboards to drill down into the data
+Scores and performance over time for each machine and player
+Total points per participant over time to measure progress on the season/series
+Publish the reports to a Microsoft Power BI Online Service Shared Workspace – along with the necessary access/sharing privileges and security
+Create an automated data flow so as additional weeks are completed, the model can be refreshed to absorb the new data and be reflected in the reports
+Additional Considerations
+Use deployment pipelines for development, testing and production environments (optional/additional considerations))
+Use AI features to predict trends and forecasting (optional/additional considerations)
+Create a paginated report for each week (optional/additional considerations)
+Automate email template to participants/organizers with results and updates
+Organizers and participants of the event would like to analyze the following data:
+Total number of players
+Number of weeks each participant has completed
+Position and total points of each participant over time
+Average score, highest score, lowest score and total number of plays per machine
+Average score, highest score, lowest score and total number of plays per participant
+Player progress over time – which player(s) have made the most improvement week after week
+Dashboard for each participant to see their results over time
+Dashboard that displays cumulative season metrics
